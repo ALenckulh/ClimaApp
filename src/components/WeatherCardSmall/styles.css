@@ -1,0 +1,22 @@
+.weather-card-sm {
+  flex-direction: column;
+  background: hsl(226, 55%, 41%, 0.8);
+  padding: 8px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100px;
+}
+
+.min-max-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.min-max div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
